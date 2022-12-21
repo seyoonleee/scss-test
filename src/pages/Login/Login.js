@@ -8,22 +8,22 @@ import "./Login.css";
 const Login = () => {
   return (
     <>
-      <div class='overall-container'>
-        <section class='login-section'>
+      <div className='overall-container'>
+        <section className='login-section'>
           {/* <!-- logo container --> */}
-          <div class='logo-container'>Westagram</div>
+          <div className='logo-container'>Westagram</div>
           {/* <!-- form --> */}
-          <form class='loginForm'>
+          <form className='loginForm'>
             <input
-              class='user-id'
+              className='user-id'
               type='text'
               placeholder='전화번호, 사용자 이름 또는 이메일'
             />
-            <input class='user-pw' type='password' placeholder='비밀번호' />
-            <button class='login-btn btn-light-blue'>로그인</button>
+            <input className='user-pw' type='password' placeholder='비밀번호' />
+            <button className='login-btn btn-light-blue'>로그인</button>
           </form>
           {/* <!-- forgot container --> */}
-          <div class='forgotpw-container'>
+          <div className='forgotpw-container'>
             <p>비밀번호를 잊으셨나요?</p>
           </div>
         </section>
