@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   margin: 2em 0;
-  height: 92vh;
+  height: 85vh;
 }
 
 /* log in */
@@ -15,6 +15,8 @@
 }
 
 .login-btn {
+  height: 100%;
+  width: 100%;
 }
 
 section {
@@ -59,6 +61,11 @@ section {
 .loginForm input:focus {
   outline: none;
   border: 1px solid #a8a8a8;
+}
+
+.user-id,
+.user-pw {
+  width: 100%;
 }
 
 .loginForm .user-id-warning,
