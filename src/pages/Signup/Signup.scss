@@ -1,0 +1,19 @@
+@import "../../styles/mixin.scss";
+
+.signup {
+  @include flex(space-around, flex-end);
+  .title {
+    background-color: brown;
+  }
+
+  .article {
+    background-color: orange;
+    &:hover {
+      width: 200px;
+      background-color: blue;
+    }
+    &_children {
+      background-color: powderblue;
+    }
+  }
+}
